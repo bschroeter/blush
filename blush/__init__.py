@@ -2,9 +2,13 @@
 import multiprocessing as mp
 import pandas as pd
 from tqdm import tqdm
+from importlib_metadata import version as _version
 
 # Constants
 MAX_CORES = mp.cpu_count()
+
+
+__version__ = _version('blush')
 
 
 def _parallel_wrap(mp_args):
