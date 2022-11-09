@@ -81,3 +81,7 @@ def unpack_results(results):
         list : List of result objects
     """
     return [result for result in results]
+
+
+# For our American friends...
+parallelize = parallelise

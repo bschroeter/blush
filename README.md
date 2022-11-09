@@ -1,4 +1,4 @@
-# blush
+# Blush
 
 A simple parallel wrapper for embarrassingly parallel method calls.
 

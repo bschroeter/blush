@@ -1,3 +1,21 @@
+# [project]
+# name = "Blush"
+# dynamic = ["version"]
+# authors = [
+#     { name="Ben Schroeter", email="benjschroeter@gmail.com"},
+# ]
+# description = "A thin wrapper on top of multiprocessing for embarassingly parallel method calls."
+# readme = "README.md"
+# classifiers = [
+#     "Programming Language :: Python :: 3",
+#     "License :: OSI Approved :: MIT License",
+#     "Operating System :: OS Independent",
+# ]
+
+# [project.urls]
+# "Homepage" = "https://github.com/bschroeter/blush"
+# "Bug Tracker" = "https://github.com/bschroeter/blush/issues"
+
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = [
