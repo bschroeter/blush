@@ -29,7 +29,7 @@ iresults = parallelise(
 
 # Results will be unpacked as they finish computation.
 # Now you can do something with them.
-results = unpack_results(uresults)
+results = unpack_results(iresults)
 ```
 
 ## Why?
